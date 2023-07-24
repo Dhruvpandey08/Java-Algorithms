@@ -8,6 +8,7 @@ class Manachers
     {
       return "";
     }
+    
     int n = input.length();
     int longestSoFar = 0, startIndex = 0, endIndex = 0;
     boolean[][] palindrom = new boolean[n][n];
