@@ -10,11 +10,12 @@ class BinaryPalindrome
         String rev="";
         int len = s.length();
         sc.close();
-        
+
         for(int i=len-1;i>=0;i--)
         {
             rev = rev+  String.valueOf(s.charAt(i));
         }
+        
         if(rev.equals(s))
         {
             System.out.println("yes");
